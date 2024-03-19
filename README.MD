@@ -9,8 +9,16 @@ http://localhost:8000/user/getAllCustomers
 
 POST
 user/createRoom
-localhost:3000/
-﻿
+localhost:8000/
+﻿{
+      "roomId": 5,
+      "noOfSeats": "15",
+      "amenities": ["AC", "TV", "Hot-Water", "Wifi"],
+      "price": 1000,
+      "status": false,
+      "rName": "guest room"
+     
+    }
 
 GET
 user/getBookedRooms
